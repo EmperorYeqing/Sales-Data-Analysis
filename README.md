@@ -130,9 +130,9 @@ Analyzed the relationship between:
 
 The project includes:
 
-- Revenue by Product
-- Revenue by Category
-- Monthly Revenue Trend
+- Revenue by Product ![Revenue by Product] (images/Total_Revenue_by_Product.png)
+- Revenue by Category ![Revenue by Category] (images/Total_Revenue_by_Category.png)
+- Monthly Revenue Trend ![Monthly Revenue Trend] (images/Monthly_Revenue_Trend.png)
 
 ---
 
