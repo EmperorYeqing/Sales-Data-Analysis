@@ -153,6 +153,7 @@ df[["Quantity", "Revenue"]].corr()
 # %%
 df.groupby("Product")["Revenue"].sum().plot(kind="barh",ylabel="Revenue",color="Orange")
 plt.title("Total Revenue by Product")
+plt.savefig("Total_Revenue_by_Product.png")
 plt.show()
 
 # %% [markdown]
@@ -161,6 +162,7 @@ plt.show()
 # %%
 df.groupby("Category")["Revenue"].sum().plot(kind="barh",ylabel="Revenue",color="Green")
 plt.title("Total Revenue by Category")
+plt.savefig("Total_Revenue_by_Category.png")
 plt.show()
 
 # %% [markdown]
@@ -169,6 +171,7 @@ plt.show()
 # %%
 monthly_rev.plot(kind="line",ylabel="Revenue",xlabel="Month",marker="o",grid=True,mfc="Green",mec="Green")
 plt.title("Monthly Revenue Trend")
+plt.savefig("Monthly_Revenue_Trend.png")
 plt.show()
 
 # %% [markdown]
